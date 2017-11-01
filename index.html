@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Halloween Pumpkins</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/halloween.css">
+        
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><img src="images/bat-hanging.svg" height="600")/></section>
+                <section><img src="images/bat-mouth.svg" height="600")/></section>
+                <section><img src="images/bats.svg" height="600")/></section>
+                <section><img src="images/bat.svg" height="600")/></section>
+                <section><img src="images/boo.svg" height="600")/></section>
+                <section><img src="images/cat.svg" height="600")/></section>
+                <section><img src="images/cat2.svg" height="600")/></section>
+                <section><img src="images/cat3.svg" height="600")/></section>
+                <section><img src="images/cauldron.svg" height="600")/></section>
+                <section><img src="images/cheshire.svg" height="600")/></section>
+                <section><img src="images/crossbones.svg" height="600")/></section>
+                <section><img src="images/ghost.svg" height="600")/></section>
+                <section><img src="images/ghost2.svg" height="600")/></section>
+                <section><img src="images/ghost3.svg" height="600")/></section>
+                <section><img src="images/grin1.svg" height="600")/></section>
+                <section><img src="images/grin2.svg" height="600")/></section>
+                <section><img src="images/grin3.svg" height="600")/></section>
+                <section><img src="images/grin4.svg" height="600")/></section>
+                <section><img src="images/grin5.svg" height="600")/></section>
+                <section><img src="images/grin6.svg" height="600")/></section>
+                <section><img src="images/grin7.svg" height="600")/></section>
+                <section><img src="images/grin8.svg" height="600")/></section>
+                <section><img src="images/hellokitty.svg" height="600")/></section>
+                <section><img src="images/lightning.svg" height="600")/></section>
+                <section><img src="images/linus.svg" height="600")/></section>
+                <section><img src="images/minion1.svg" height="600")/></section>
+                <section><img src="images/minion2.svg" height="600")/></section>
+                <section><img src="images/minion3.svg" height="600")/></section>
+                <section><img src="images/minnie.svg" height="600")/></section>
+                <section><img src="images/monstersinc.svg" height="600")/></section>
+                <section><img src="images/moon-bats.svg" height="600")/></section>
+                <section><img src="images/moon.svg" height="600")/></section>
+                <section><img src="images/mummy.svg" height="600")/></section>
+                <section><img src="images/mummy2.svg" height="600")/></section>
+                <section><img src="images/owl.svg" height="600")/></section>
+                <section><img src="images/owl2.svg" height="600")/></section>
+                <section><img src="images/pikachu.svg" height="600")/></section>
+                <section><img src="images/pikachu2.svg" height="600")/></section>
+                <section><img src="images/pirate-skeleton.svg" height="600")/></section>
+                <section><img src="images/princess-frog.svg" height="600")/></section>
+                <section><img src="images/rip.svg" height="600")/></section>
+                <section><img src="images/skeletor.svg" height="600")/></section>
+                <section><img src="images/skull.svg" height="600")/></section>
+                <section><img src="images/skull2.svg" height="600")/></section>
+                <section><img src="images/skull3.svg" height="600")/></section>
+                <section><img src="images/skull-flames.svg" height="600")/></section>
+                <section><img src="images/spider.svg" height="600")/></section>
+                <section><img src="images/spider2.svg" height="600")/></section>
+                <section><img src="images/spiderman.svg" height="600")/></section>
+                <section><img src="images/stormtrooper.svg" height="600")/></section>
+                <section><img src="images/teeth.svg" height="600")/></section>
+                <section><img src="images/tree1.svg" height="600")/></section>
+                <section><img src="images/tree2.svg" height="600")/></section>
+                <section><img src="images/trickortreat.svg" height="600")/></section>
+                <section><img src="images/venom.svg" height="600")/></section>
+			</div>
+		</div>
+
+		<script src="scripts/head.min.js"></script>
+		<script src="scripts/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+                controls: false,
+                progress: false,
+                shuffle: true,
+                autoSlide: 8000,
+                autoSlideStoppable: false,
+                loop: true,
+                transition: 'zoom',
+                transitionSpeed: 'slow',
+
+
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+            Reveal.addEventListener( 'slidechanged', function( event ) {
+                if( Reveal.isFirstSlide() ) {
+                    // Randomize the order again
+                    Reveal.shuffle();
+
+                    // Navigate to the first slide according to the new order
+                    Reveal.slide( 0, 0 );
+                }
+            } );
+		</script>
+	</body>
+</html>
